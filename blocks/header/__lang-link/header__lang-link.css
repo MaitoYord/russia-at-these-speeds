@@ -2,7 +2,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.17;
     text-decoration: none;
     color: #fff;
 }
@@ -11,4 +11,11 @@
 .header__lang-link:hover {
     transition: opacity 1s linear;
     opacity: 0.4;
+}
+
+@media screen and (max-width: 568px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 1.11;
+    }
 }

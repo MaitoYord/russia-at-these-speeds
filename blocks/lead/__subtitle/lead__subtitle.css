@@ -8,5 +8,19 @@
     line-height: 1.2;
     color: #fff;
     margin: 0 0 64px;
+}
 
+@media screen and (max-width: 1140px) {
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 1.25;
+        max-width: 288px;
+        margin-bottom: 40px;
+    }
 }

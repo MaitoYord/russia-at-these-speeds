@@ -2,10 +2,24 @@
     display: grid;
     grid-template-rows: 4fr;
     justify-items: center;
-    width: 100%;
+    /* при указании ширины в max-width caption никуда не убегает при игре с разрешениями, фиксированная ширина его гоняет.   */
+    max-width: 100%;
     padding: 0 148px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
- 
+ @media screen and (max-width: 1140px) {
+    .lead {
+        padding: 0 48px;
+    }
+ }
+
+ @media screen and (max-width: 984px) {
+    .lead {
+        padding: 0;
+    }
+ }
+
+
+
