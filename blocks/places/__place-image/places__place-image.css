@@ -1,0 +1,22 @@
+.places__place-image {
+    max-width: 460px;
+    grid-area: image;
+}
+
+@media screen and (max-width: 1140px) {
+    .places__place-image {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .places__place-image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .places__place-image {
+        max-width: 320px;
+    }
+}

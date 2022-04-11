@@ -1,0 +1,19 @@
+.places__place-website {
+    max-width: 465px;
+    place-self: end start;
+    grid-area: URL;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 984px) {
+    .places__place-website {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .places__place-website {
+        max-width: 288px;
+        padding: 0 16px;
+    }
+}

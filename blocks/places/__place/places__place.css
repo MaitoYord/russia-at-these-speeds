@@ -1,0 +1,32 @@
+.places__place {
+    display: grid;
+    grid-template-columns: minmax(320px, 1fr);
+    grid-auto-rows: minmax(min-content, max-content);
+    gap: 48px 40px;
+    grid-template-areas: 
+    "title URL"
+    "image paragraph";
+}
+
+@media screen and (max-width: 1140px) {
+    .places__place {
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .places__place {
+        gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .places__place {
+        gap: 32px 0;
+        grid-template-areas: 
+        "title" 
+        "URL"
+        "image" 
+        "paragraph";
+    }
+}
