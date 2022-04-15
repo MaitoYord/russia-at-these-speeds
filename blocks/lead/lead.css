@@ -3,7 +3,7 @@
     grid-template-rows: 4fr;
     justify-items: center;
     /* при указании ширины в max-width caption никуда не убегает при игре с разрешениями, фиксированная ширина его гоняет.   */
-    max-width: 100%;
+    width: 100%;
     padding: 0 148px;
     margin: 0 auto;
     box-sizing: border-box;
