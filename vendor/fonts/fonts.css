@@ -6,18 +6,12 @@
 
 @font-face { 
     font-family: 'Inter';
+    font-weight: 700;
+    src: url(Inter/Inter-Bold.otf);
+}
+
+@font-face { 
+    font-family: 'Inter';
     font-weight: 400;
     src: url(Inter/Inter-Regular.otf);
-}
-
-@font-face { 
-    font-family: 'Inter';
-    font-weight: 200;
-    src: url(Inter/Inter-ExtraLight.otf);
-}
-
-@font-face { 
-    font-family: 'Inter';
-    font-weight: 100;
-    src: url(Inter/Inter-Thin.otf);
 }

@@ -4,6 +4,11 @@
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     margin: 0 auto;
     gap: 16px 16px;
+    padding: 0;
+}
+
+.photo-grid > ul {
+    list-style: none;
 }
 
 @media screen and (max-width: 1200px) {

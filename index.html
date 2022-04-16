@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
 </head>
 
@@ -14,10 +13,11 @@
 
     <header class="header">
         <img class="header__logo" src="images/logo-Russia.svg" alt="Лого-Россия.">
-        <div class="header__lang-links">
-            <a class="header__lang-link header__lang-link_active" href="https://youtu.be/AdEcqieJAHM">Ru</a>
-            <a class="header__lang-link" href="https://youtu.be/Q4n9Qc8yg1M">En</a>
-        </div>
+        <ul class="header__lang-links">
+            <!-- Все посхали выпилили еххх! -->
+            <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+            <li><a class="header__lang-link" href="#">En</a></li>
+        </ul>
     </header>
 
     <main class="content">
@@ -25,8 +25,12 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <img class="lead__image" src="images/plackart-sleep.jpg" alt="В плацкарте через всю страну.">
-            <p class="lead__caption">ваша полка — верхняя</p>
+            <figure>
+                <img class="lead__image" src="images/plackart-sleep.jpg" alt="В плацкарте через всю страну.">
+                <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            </figure>
+
+
         </section>
 
         <section class="intro">
@@ -43,11 +47,11 @@
                 Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
 
             <ul class="intro__list">
-                <li>Часовых поясов 11</li>
-                <li>Объектов природного наследия ЮНЕСКО 12</li>
-                <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                <li>Природных заповедников 105</li>
-                <li>Аэропортов 241</li>
+                <li><span class="intro__span-accent">Часовых поясов </span>11</li>
+                <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО </span>12</li>
+                <li><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО </span>16</li>
+                <li><span class="intro__span-accent">Природных заповедников </span>105</li>
+                <li><span class="intro__span-accent">Аэропортов </span>241</li>
             </ul>
         </section>
 
@@ -68,7 +72,7 @@
 
         <section class="places">
 
-            <div class="places__place">
+            <article class="places__place">
                 <h2 class="places__place-title">Куршская коса</h2>
                 <img class="places__place-image" src="images/place-kosa.jpg" alt="Куршская коса.">
                 <div class="places__place-website">
@@ -86,9 +90,9 @@
                         приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы
                         и&nbsp;запах стального, прохладного моря.</p>
                 </div>
-            </div>
+            </article>
 
-            <div class="places__place">
+            <article class="places__place">
                 <h2 class="places__place-title">Кольский</h2>
                 <img class="places__place-image" src="images/place-kolskyi.jpg" alt="Кольский.">
                 <div class="places__place-website">
@@ -108,9 +112,9 @@
                         начинает сбываться с&nbsp;билетом
                         в&nbsp;Мурманск.</p>
                 </div>
-            </div>
+            </article>
 
-            <div class="places__place">
+            <article class="places__place">
                 <h2 class="places__place-title">Алтай</h2>
                 <img class="places__place-image" src="images/place-altay.jpg" alt="Алтай.">
                 <div class="places__place-website">
@@ -128,9 +132,9 @@
                         бродят лоси, над хребтами летают орлы, а&nbsp;на&nbsp;равнинах пасутся косули. И&nbsp;знаменитые
                         манулы&nbsp;&mdash; тоже обитатели Алтайского края.</p>
                 </div>
-            </div>
+            </article>
 
-            <div class="places__place">
+            <article class="places__place">
                 <h2 class="places__place-title">Зимний Байкал</h2>
                 <img class="places__place-image" src="images/place-baykal.jpg" alt="Зимний Байкал.">
                 <div class="places__place-website">
@@ -147,9 +151,9 @@
                         на&nbsp;льду. В&nbsp;марте 2019 года на&nbsp;фестивале &laquo;Байкальская миля&raquo; был
                         поставлен мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.</p>
                 </div>
-            </div>
+            </article>
 
-            <div class="places__place">
+            <article class="places__place">
                 <h2 class="places__place-title">Карелия</h2>
                 <img class="places__place-image" src="images/place-karel.jpg" alt="Карелия.">
                 <div class="places__place-website">
@@ -168,7 +172,7 @@
                         в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                     </p>
                 </div>
-            </div>
+            </article>
 
         </section>
 
