@@ -4,8 +4,6 @@
     place-self: end end;
     padding-bottom: 6px;
     padding-left: 0;
+    margin: 0;
 }
 
-.header__lang-links > li:first-child {
-    padding-right: 18px;
-}
